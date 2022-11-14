@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    width: 380px;
+    background-color: #fff;
+    height: 530px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+
+
+}
+
+.main-container .card {
+    height: 500px;
+    max-width: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+
+.main-container .card div .img {
+    max-width: 350px;
+    border-radius: 12px;
+    display: block;
+}
+.main-container .card .info{
+    width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 12px;
+}
+.main-container .card .info .heading {
+    font-size: 23px;
+    width: 74%;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.main-container .card  .info .text {
+    font-size: 15px;
+    width: 74%;
+    font-weight: 400;
+color: hsl(220, 15%, 55%);
+}
+@media all and (max-width:360px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        min-height: 100vh;
+        max-width:375px;
+        margin: 0 auto;
+        background-color: hsl(220, 15%, 55%);
+        font-family: 'Outfit', sans-serif;
+        
+    }
+    
+    main {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-container {
+        width: 360px;
+        background-color: #fff;
+        height: 530px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15px;
+    
+    
+    }
+    
+    .main-container .card {
+        height: 500px;
+        max-width: 330px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 18px;
+    }
+    
+    .main-container .card div .img {
+        max-width: 330px;
+        border-radius: 12px;
+        display: block;
+    }
+    .main-container .card .info{
+        width: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 12px;
+    }
+    .main-container .card .info .heading {
+        font-size: 23px;
+        width: 75%;
+        font-weight: 700;
+        color: hsl(218, 44%, 22%);
+    }
+    
+    .main-container .card  .info .text {
+        font-size: 15px;
+        width: 75%;
+        font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    }
+}
+@media all and (max-width:550px) and (min-width:360px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        min-height: 100vh;
+        max-width: 375px;
+        margin: 0 auto;
+        background-color: hsl(220, 15%, 55%);
+        font-family: 'Outfit', sans-serif;
+    }
+    
+    main {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-container {
+        width: 360px;
+        background-color: #fff;
+        height: 530px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15px;
+    
+    
+    }
+    
+    .main-container .card {
+        height: 500px;
+        max-width: 330px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 18px;
+    }
+    
+    .main-container .card div .img {
+        max-width: 330px;
+        border-radius: 12px;
+        display: block;
+    }
+    .main-container .card .info{
+        width: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 12px;
+    }
+    .main-container .card .info .heading {
+        font-size: 23px;
+        width: 75%;
+        font-weight: 700;
+        color: hsl(218, 44%, 22%);
+    }
+    
+    .main-container .card  .info .text {
+        font-size: 15px;
+        width: 75%;
+        font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    }
+}
